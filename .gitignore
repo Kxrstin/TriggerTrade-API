@@ -1,0 +1,23 @@
+### Java & Maven ###
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### macOS / Windows ###
+.DS_Store
+Thumbs.db
+
+### Spring Boot ###
+.mvn/
+mvnw
+mvnw.cmd
