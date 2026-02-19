@@ -53,13 +53,13 @@ http://localhost:8080/swagger-ui/index.html
 <tr>
 <td align="center"><b>Database Design</b></td>
 <tr>
-<td><img src="img/db-schema.png" width="700px" alt="Database Schema"></td>
+<td><img src="img/db-schema.png" width="800px" alt="Database Schema"></td>
 </tr>
 <tr>
 <td align="center"><b>Small selection of available resources</b></td>
 </tr>
 <tr>
-<td><img src="img/swagger.png" width="700px" alt="Small selection of available resources"></td>
+<td><img src="img/swagger.png" width="800px" alt="Small selection of available resources"></td>
 </tr>
 </table>
 
