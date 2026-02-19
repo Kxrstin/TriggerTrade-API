@@ -50,15 +50,16 @@ http://localhost:8080/swagger-ui/index.html
 
 <table>
 <tr>
+<tr>
 <td align="center"><b>Database Design</b></td>
 <tr>
-<td><img src="screenshots/db-schema.png" width="700px" alt="Database Schema"></td>
+<td><img src="img/db-schema.png" width="700px" alt="Database Schema"></td>
 </tr>
 <tr>
 <td align="center"><b>Small selection of available resources</b></td>
 </tr>
 <tr>
-<td><img src="screenshots/swagger.png" width="700px" alt="Small selection of available resources"></td>
+<td><img src="img/swagger.png" width="700px" alt="Small selection of available resources"></td>
 </tr>
 </table>
 
@@ -68,7 +69,7 @@ http://localhost:8080/swagger-ui/index.html
 
 ### Business Features
 
-* **Customer & Address Management:** Complex relationships between customers and multiple address types (shipping/billing address) including validation.
+* **Customer & Address Management:** Complex relationships between customers and multiple address types including validation.
 * **Employee Portal:** Overview of managed products and order status.
 * **Product Catalog:** Management of SKUs, prices, and real-time inventory.
 * **Ordering System:** Complete process from order to cancellation with automatic inventory reconciliation.
@@ -79,7 +80,7 @@ http://localhost:8080/swagger-ui/index.html
 
 * **RESTful design:** Consistent use of HTTP methods (GET, POST, PUT, DELETE) and appropriate status codes.
 * **Direct JDBC Access:** No ORM layer (such as Hibernate) in favor of native SQL for full transparency and performance.
-* **PL/pgSQL Trigger:** Automated validation of inventory directly during INSERT/UPDATE on order items—prevents stock shortages through automated trigger functions.
+* **PL/pgSQL Trigger:** Automated validation and trigger functions of inventory directly during INSERT/UPDATE on order items
 * **Robust SQL Schema:** Complex regex constraints for passwords, emails, and zip codes directly in the database.
 * **Analytical Views:** Pre-calculated SQL views for sales statistics and employee KPIs.
 
