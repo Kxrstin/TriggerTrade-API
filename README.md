@@ -46,7 +46,6 @@ http://localhost:8080/swagger-ui/index.html
 
 ---
 
-
 ## Demo & Screenshots
 
 <table>
@@ -119,3 +118,15 @@ http://localhost:8080/swagger-ui/index.html
 ### 🔒 Security Note
 
 For demonstration purposes, this project uses standard credentials in the Docker setup. In a production environment, this would be replaced by environment variables and secret management.
+
+---
+
+### 🎓 Background: University Project
+
+This project was developed as part of the **“Databases: Advanced Concepts”** module in the 5th semester.
+
+The focus was on:
+
+* **Practical application:** Bridging the gap between complex SQL (triggers/procedures) and modern Java backend development.
+* **Integrity:** Proving that critical business logic (such as inventory checks) can be securely encapsulated at the database level.
+* **Full-stack thinking:** Providing a containerized environment that is ready for immediate use without manual configuration.
