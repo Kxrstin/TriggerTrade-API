@@ -124,8 +124,7 @@ For demonstration purposes, this project uses standard credentials in the Docker
 
 ### 🎓 Background: University Project
 
-This project was developed as part of the **“Databases: Advanced Concepts”** module in the 5th semester.
-
+This project was independently developed by myself as part of the "Databases: Advanced Concepts" module in my 5th semester. While the functional requirements, folder structure, Docker environment, and project configuration (pom.xml & application properties) were provided as a base by the lecturer, the entire logic and implementation were executed by me. The core focus lies on building a robust REST API and ensuring high data integrity through native JDBC and custom-built PL/pgSQL triggers.
 The focus was on:
 
 * **Practical application:** Bridging the gap between complex SQL (triggers/procedures) and modern Java backend development.
