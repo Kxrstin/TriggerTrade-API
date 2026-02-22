@@ -21,7 +21,7 @@ Follow these steps to start the project in your local environment.
 ### 2. Start Docker
 Start the PostgreSQL database, including all triggers and views, via Docker Compose:
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 ### 3. Start application
@@ -96,7 +96,7 @@ http://localhost:8080/swagger-ui/index.html
 
 ### Database
 
-* PostgreSQL (Relationales Modell)
+* PostgreSQL
 * PL/pgSQL (Stored Procedures & Trigger)
 
 ### Infrastructure
@@ -107,10 +107,10 @@ http://localhost:8080/swagger-ui/index.html
 
 ### What I learned
 
-* **Native SQL over ORM:** I learned how to control database access directly with JDBC. This gave me a deeper understanding of ResultSets, PreparedStatements, and the manual mapping of SQL data to Java objects.
+* **Native SQL:** I learned how to control database access directly with JDBC. This gave me a deeper understanding of ResultSets, PreparedStatements, and the manual mapping of SQL data to Java objects.
 * **Database Intelligence:** Instead of writing logic only in Java code, I learned to use PL/pgSQL triggers. This prevents inconsistencies (e.g., “overselling”) even when manipulating data directly via the SQL console.
 * **REST semantics:** I learned how to structure an API so that it is intuitive to use (e.g., using path variables for IDs and query parameters for filters).
-* **Relational design:** Creating complex join tables (such as `customer_has_addresses`) deepened my understanding of m:n relationships and foreign key constraints.
+* **Relational design:** Creating complex join tables (such as `kunde_hat_addressen`) deepened my understanding of m:n relationships and foreign key constraints.
 * **Regex & Data Integrity:** Implementing complex CHECK constraints in SQL showed me how to use a “defense in depth” strategy to reject invalid data at the lowest level.
 * **Docker Orchestration:** Through Docker Compose, I learned how to automate the provisioning of complex dependencies (such as the initial execution of schema and data scripts).
 
