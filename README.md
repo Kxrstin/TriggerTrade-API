@@ -78,10 +78,10 @@ http://localhost:8080/swagger-ui/index.html
 
 ### Technical Highlights
 
-* **RESTful design:** Consistent use of HTTP methods (GET, POST, PUT, DELETE) and appropriate status codes.
+* **RESTful design:** Consistent use of HTTP methods (GET, POST, PUT, PATCH, DELETE) and appropriate status codes.
 * **Direct JDBC Access:** No ORM layer (such as Hibernate) in favor of native SQL for full transparency and performance.
 * **PL/pgSQL Trigger:** Automated validation and trigger functions of inventory directly during INSERT/UPDATE on order items
-* **Robust SQL Schema:** Complex regex constraints for passwords, emails, and zip codes directly in the database.
+* **Robust SQL Schema:** Complex regex constraints for passwords and emails in the database.
 * **Analytical Views:** Pre-calculated SQL views for sales statistics and employee KPIs.
 
 ---
@@ -112,7 +112,6 @@ http://localhost:8080/swagger-ui/index.html
 * **REST semantics:** I learned how to structure an API so that it is intuitive to use (e.g., using path variables for IDs and query parameters for filters).
 * **Relational design:** Creating complex join tables (such as `kunde_hat_addressen`) deepened my understanding of m:n relationships and foreign key constraints.
 * **Regex & Data Integrity:** Implementing complex CHECK constraints in SQL showed me how to use a “defense in depth” strategy to reject invalid data at the lowest level.
-* **Docker Orchestration:** Through Docker Compose, I learned how to automate the provisioning of complex dependencies (such as the initial execution of schema and data scripts).
 
 ---
 
@@ -124,7 +123,7 @@ For demonstration purposes, this project uses standard credentials in the Docker
 
 ### 🎓 Background: University Project
 
-This project was independently developed by myself as part of the "Databases: Advanced Concepts" module in my 5th semester. While the functional requirements, folder structure, Docker environment, and project configuration (pom.xml & application properties) were provided as a base by the lecturer, the entire logic and implementation were executed by me. The core focus lies on building a robust REST API and ensuring high data integrity through native JDBC and custom-built PL/pgSQL triggers.
+This project was independently developed by myself as part of the "Databases: Advanced Concepts" module in my 5th semester. While the functional requirements, folder structure, Docker environment, and project configuration (pom.xml & application properties) were provided as a base by the lecturer, the entire logic and implementation were executed by me. The core focus lies on building a REST API and ensuring high data integrity through native JDBC and custom-built PL/pgSQL triggers.
 The focus was on:
 
 * **Practical application:** Bridging the gap between complex SQL (triggers/procedures) and modern Java backend development.
